@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #111827;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 30px;
+}
+
+.click-btn {
+  width: 220px;
+  height: 220px;
+
+  border: none;
+
+  border-radius: 50%;
+
+  font-size: 30px;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.stats {
+  text-align: center;
+  font-size: 22px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+}
