@@ -1,0 +1,28 @@
+.stats-container{
+    width:420px;
+    margin-top:30px;
+    background:#222;
+    padding:20px;
+    border-radius:15px;
+    color:white;
+}
+
+.stat{
+    display:flex;
+    justify-content:space-between;
+    margin:12px 0;
+}
+
+.stats-container h1{
+    text-align:center;
+    font-size:55px;
+}
+
+.stats-container h2,
+.stats-container h3{
+    text-align:center;
+}
+
+hr{
+    margin:20px 0;
+}
